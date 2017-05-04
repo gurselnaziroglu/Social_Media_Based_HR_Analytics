@@ -6,7 +6,7 @@ from datetime import datetime,timedelta
 from database import database
 #client = MongoClient()  # create connection
 client = MongoClient('193.255.161.41',27017) #create remote connection
-db = client.backup_20150531 # connect to database called "backup_201505"
+db = client.backup_20150523 # connect to database called "backup_201505"
 coll = db.Response  # select collection called "Response"
 
 # function to return true if text contains word, false otherwise

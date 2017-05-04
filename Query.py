@@ -12,18 +12,16 @@ dat = database()
 ############# get graphs
 # dat.tNOC()
 # dat.tNOU()
-dat.tNOCPU()
+# dat.tNOP()
+# dat.tNOCPU()  #plot
 # dat.aNOCPU()
+# dat.aNOCPP()
 # dat.sDOCPU()
-# dat.tNOCPP()
-# dat.nOCPED()
-# dat.nOCPH()
-# dat.nODUPP()
-# dat.nODUCPH()
+# dat.tNOCPP()  #plot
+# dat.nOCPED()  #plot
+# dat.nOCPH()   #plot
+# dat.nODUPP()  #plot
+# dat.nODUCPH()  #plot
 
-# ts = pd.Series(np.random.randn(1000), index=pd.date_range('1/1/2000', periods=1000))
-# ts = ts.cumsum()
-# print(ts)
-# ts.plot()
 plt.show()
 dat.close()
